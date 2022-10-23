@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Imagen a procesar</h1>
+<img src="{{imgSrc}}" style="width:600px;"/>
+<h2>{{message}}</h2>
+
+
+<form action ="imgp/nr" method = "post">
+    <input type="range" min={{min}} max={{max}} value={{max}} class="slider" id="myRange" name="slider">
+    <input type="submit" value="Procesamiento 1">
+</form>
+
+<form action ="imgp/nr2" method = "post">
+    <input type="range" min={{min}} max={{max}} value={{max}} class="slider" id="myRange" name="slider">
+    <input type="submit" value="Procesamiento 2">
+</form>
+
+</body>
+</html>

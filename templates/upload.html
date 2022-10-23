@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Procesador de imágenes NyD</title>
+
+</head>
+
+<form id ="upload-form" action="{{ url_for ('upload') }}" method = "POST" enctype="multipart/form-data">
+    <input type="file" name="file" accept = image/* multiple>
+    <p>Para subir tu imagen da click a 'Elegir archivos'.</p>
+    <button type ="submit" value="Upload"> Subir</button>
+
+
+</form>
+
+
+<body>
+
+</body>
+</html>
